@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    margin-top: 10px;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+
+.leftPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menuLiContainer {
+    display: flex;
+}
+
+.menuLiContainer li {
+    font-weight: 400;
+    font-size: 18px;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.userElementContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.users {
+    display: flex;
+    margin-left: 70px;
+
+}
+
+.users div {
+    margin-left: 33px;
+    font-size: 18px;
+}

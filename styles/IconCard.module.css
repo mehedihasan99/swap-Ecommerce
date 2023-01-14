@@ -1,0 +1,37 @@
+.cardContainer {
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 520px);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.leftCardBg {
+    background-color: #E87C28;
+}
+
+.cardStyle {
+    padding: 16px 0px;
+    border-radius: 8px;
+}
+
+.rightCardBg {
+    background-color: #00A4CF;
+    ;
+}
+
+.iconTextContainer {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.iconTextContainer h2 {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.iconContainer {
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
